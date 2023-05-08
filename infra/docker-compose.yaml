@@ -8,9 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    build:
-      context: ../api_yamdb
-      dockerfile: Dockerfile
+    web: palexey/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
