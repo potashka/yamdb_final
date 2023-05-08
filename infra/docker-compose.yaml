@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    web: palexey/api_yamdb:latest
+    image: palexey/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
