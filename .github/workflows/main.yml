@@ -61,6 +61,7 @@ jobs:
         with:
           push: true
           tags: palexey/api_yamdb:latest
+          context: ./api_yamdb/
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
