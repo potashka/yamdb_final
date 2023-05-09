@@ -10,7 +10,7 @@
 Благодарные или возмущённые пользователи оставляют к произведениям текстовые отзывы (Review) и ставят произведению оценку в диапазоне от одного до десяти (целое число); из пользовательских оценок формируется усреднённая оценка произведения — рейтинг (целое число). На одно произведение пользователь может оставить только один отзыв.
 
 ## bage
-https://github.com/potashka/yamdb_final/actions/workflows/main.yml/badge.svg
+https://github.com/potashka/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
 
 ## Требования
 - Python (3.7+)
