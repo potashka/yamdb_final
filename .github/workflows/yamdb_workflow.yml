@@ -74,9 +74,9 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }} # Если ваш ssh-ключ защищён фразой-паролем
         script: |
-            sudo docker pull ${{ secrets.DOCKER_USERNAME }}/yamdb_final:latest
             sudo docker-compose stop
             sudo docker-compose rm web
+            sudo docker pull ${{ secrets.DOCKER_USERNAME }}/yamdb_final:latest
             touch .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
             echo DB_NAME=${{ secrets.DB_NAME }} >> .env
@@ -87,6 +87,7 @@ jobs:
             sudo docker-compose up -d
             sudo docker-compose exec -T web python manage.py migrate
             sudo docker-compose exec -T web python manage.py collectstatic --no-input
+
   send_message:
     runs-on: ubuntu-latest
     needs: deploy
