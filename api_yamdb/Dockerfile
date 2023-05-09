@@ -10,6 +10,6 @@ COPY ./ .
 
 COPY ./reviews/static/redoc.yaml ./static/
 
-COPY ./infra/fixtures.json ./static/
+# COPY infra/fixtures.json ./static/
 
 CMD ["gunicorn", "api_yamdb.wsgi:application", "--bind", "0:8000" ]
