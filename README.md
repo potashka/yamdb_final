@@ -8,12 +8,12 @@ https://github.com/potashka/yamdb_final/actions/workflows/main.yml/badge.svg
 - Python (3.7+)
 
 ### Пакеты:
-Django, Django REST Framework, PostgreSQL, Simple-JWT, Gunicorn, Docker, nginx, Yandex Cloud, git
+Django, Django REST Framework, PostgreSQL, Simple-JWT, Gunicorn, Docker, nginx, Yandex Cloud(Ubuntu 18.04), Git
 
 ## Установка
 Клонировать репозиторий и перейти в него в командной строке:
 ```bash
-git clone git@github.com:potashka/api_yamdb.git
+git clone git@github.com:potashka/api_yamdb.gitGIT
 cd api_yamdb
 ```
 Установить и активировать виртуальное окружение:
