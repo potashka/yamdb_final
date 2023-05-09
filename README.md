@@ -1,8 +1,8 @@
 # yamdb_final
-yamdb_final
-
-# api_yamdb
 API к платформе для оставления отзывов к произведениям, составления рейтингов и комментирования отзывов
+
+## bage
+https://github.com/potashka/yamdb_final/actions/workflows/main.yml/badge.svg
 
 ## Требования
 - Python (3.7+)
