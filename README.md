@@ -8,9 +8,7 @@ https://github.com/potashka/yamdb_final/actions/workflows/main.yml/badge.svg
 - Python (3.7+)
 
 ### Пакеты:
-- Django (3.2)
-- djangorestframework (3.12.4)
-- djangorestframework-simplejwt (4.7.2)
+Django, Django REST Framework, PostgreSQL, Simple-JWT, Gunicorn, Docker, nginx, Yandex Cloud, git
 
 ## Установка
 Клонировать репозиторий и перейти в него в командной строке:
@@ -93,9 +91,7 @@ docker-compose --project-directory ./infra exec web python manage.py loaddata fi
   DB_PORT=5432
   SECRET_KEY = 
 
-## bage
 
-https://github.com/potashka/yamdb_final/actions/workflows/main.yml/badge.svg
 
 ## Авторы
 - [Айдрус](https://github.com/zamaev), [Алексей](https://github.com/potashka), [Марсель](https://github.com/honour4life)
