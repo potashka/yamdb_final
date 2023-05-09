@@ -8,7 +8,7 @@ RUN pip3 install -r ./requirements.txt --no-cache-dir
 
 COPY ./ .
 
-COPY ./reviews/static/redoc.yaml /app/static
+COPY ./reviews/static/redoc.yaml /app/static/
 
 # COPY infra/fixtures.json ./static/
 
