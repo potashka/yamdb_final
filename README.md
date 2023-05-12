@@ -98,6 +98,8 @@ docker-compose --project-directory ./infra exec web python manage.py loaddata fi
   DB_HOST=db
   DB_PORT=5432
   SECRET_KEY = 
+  DEBUG = False
+  ALLOWED_HOSTS = ['*']
 
 ## Автоматизация развертывания серверного ПО
 
