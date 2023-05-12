@@ -12,6 +12,12 @@
 ## badge
 https://github.com/potashka/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
 
+## Рзавернутый проект
+
+http://84.252.143.225/admin
+https://simplicatus.hopto.org/admin
+https://simplicatus.hopto.org/api/v1/
+
 ## Требования
 - Python (3.7+)
 
@@ -115,10 +121,6 @@ docker-compose.yamlbдолжен разворачивать контейнер w
 - автоматический деплой проекта на боевой сервер;
 - отправка уведомления в Telegram о том, что процесс деплоя успешно завершился.
 
-## Рзавернутый проект
-
-http://84.252.143.225/admin/login/?next=/admin/
-login: admin password: admin
 
 ## Авторы
 - [Айдрус](https://github.com/zamaev), [Алексей](https://github.com/potashka), [Марсель](https://github.com/honour4life)
